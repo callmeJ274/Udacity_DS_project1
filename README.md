@@ -39,16 +39,19 @@ In addition, there are some streets have Mean higher than Median that means thos
 
 3. **Differences in price by facilites** \
 When trying to boxplot category features. We can see the prices are different by the facitlities each place provides.
+
 <img src="imgs/boxplot_beds.png" alt="drawing" height = "335" width="540"/>
 <img src="imgs/boxplot_bedtype.png" alt="drawing" width="510"/>
 <img src="imgs/boxplot_room_type.png" alt="drawing" width="540"/>
 <img src="imgs/boxplot_property_type.png" alt="drawing" height = "365" width="510"/>
 
-We can see the prices are different by the number of beds, room type. However, there are many outliers in beds = 1, bed_type = Real_bed, room_type, property_type = Apartment or House. This is because each of type relating to other like when filtering department and using boxplot in beds and price, we can see the same price order by number of beds showed below
+We can see the prices are different by the number of beds, room type. However, there are many outliers in beds = 1, bed_type = Real_bed, room_type, property_type = Apartment or House. This is because each of type relating to other like when filtering department and using boxplot in beds and price, we can see the same price order by number of beds showed below.
+
 <img src="imgs/apartment_beds.png" alt="drawing" width="500"/>
 <img src="imgs/house_beds.png" alt="drawing" width="500"/>
 
 Looking at the streets which have high number of places. We can see the prices are still different by the facilities they provide.
+
 <img src="imgs/washington_beds.png" alt="drawing" width="500"/>
 <img src="imgs/tremont_beds.png" alt="drawing" width="500"/>
 
