@@ -1,5 +1,6 @@
 # Boston Airbnb Data Analysis
 
+My blog: https://medium.com/@leuleu742/boston-airbnb-data-analysis-8f874185e9b9
 ## I.Overview
 It is considered as a very important factor when travelling is finding a good place to stay. In this project, I use the Boston Airbnb Data to analyse the places and prices by streets and their own facilities.
 ## II.Data Description
