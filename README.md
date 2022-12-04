@@ -38,7 +38,7 @@ The average prices in streets having the number of hotels higher than 6 are rang
 In addition, there are some streets have Mean higher than Median that means those streets' price distributions are left-skewed, in other word, most of places in those streets have low prices than the average price. 
 
 3. **Differences in price by facilites** \
-When trying to boxplot category features. We can see the prices are different by the facitlities each place provides.
+When trying to boxplot category features. We can see the prices are different by the facilities each place provides.
 
 <img src="imgs/boxplot_beds.png" alt="drawing" height = "335" width="540"/>
 <img src="imgs/boxplot_bedtype.png" alt="drawing" width="510"/>
@@ -56,4 +56,4 @@ Looking at the streets which have high number of places. We can see the prices a
 <img src="imgs/tremont_beds.png" alt="drawing" width="500"/>
 
 ## VI.Conclusion
-All in all,the prices between places to stay avalable for a specific day (2016, Dec, 1) are different in not only street ( some crowded street have quite high prices, but also by the facilities those places have. Such as the bumber of beds, or rome_type like Apartment/ House and other facilities visullized in the boxplots above. The first hand analysis and the result can be used to support to filter data for a recommendation system in tourism. For deep dive analysis, we can add some mock_visitor-requirement to have more insight results.
+All in all,the prices between places to stay avalable for a specific day (2016, Dec, 1) are different in not only street ( some crowded street have quite high prices, but also by the facilities those places have. Such as the number of beds, or rome_type like Apartment/ House and other facilities visulized in the boxplots above. The first hand analysis and the result can be used to support to filter data for a recommendation system in tourism. For deep dive analysis, we can add some mock_visitor-requirement to have more insight results.
