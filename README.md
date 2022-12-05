@@ -1,6 +1,7 @@
 # Boston Airbnb Data Analysis
 
 My blog: https://medium.com/@leuleu742/boston-airbnb-data-analysis-8f874185e9b9
+
 ## I.Overview
 It is considered as a very important factor when travelling is finding a good place to stay. In this project, I use the Boston Airbnb Data to analyse the places and prices by streets and their own facilities.
 ## II.Data Description
@@ -13,18 +14,23 @@ The data in the archive contains 3 raw datasets. In this project, I use 2 datase
     + cleaned_data.csv: merging from calendar.csv and listings.csv
 
 ## III.Workflow Description
-- Cleaning data:
+### Libraries used
+- Pandas (no restricted version)
+- Matplotlib.pyplot (no restricted version)
+- folium (no restricted version)
+### Cleaning data:
     + Handle categorical and missing data
     + Remove uninterested columns
     + Denormalizing street column
     + Changing data type: timestamp, int 
-- Analysis:
+### Analysis:
     + Adding assumptions and processing data to analyse the question and find the answers.
-### IV.There big questions
+## IV.There big questions
 1. Pretend: Let's say a group of visitors travels in 1st,Dec,2016 and plans to stay in Boston,US. What room is available to them during that days?
 2. What are the prices between streets in Boston?
 3. Presumably,Could the room type and other facilities contribute to the differences in price?
-### V.Detail Analyses
+
+## V.Detail Analyses
 1. **Available room in 2022, Dec, 1** \
 Firstly, I filtered the data by date and plot them in World Map. As we can see, there are many available places in different streets. Try out to adjust the Map in file notebook.
 
@@ -58,3 +64,7 @@ Looking at the streets which have high number of places. We can see the prices a
 
 ## VI.Conclusion
 All in all,the prices between places to stay avalable for a specific day (2016, Dec, 1) are different in not only street ( some crowded street have quite high prices, but also by the facilities those places have. Such as the number of beds, or rome_type like Apartment/ House and other facilities visulized in the boxplots above. The first hand analysis and the result can be used to support to filter data for a recommendation system in tourism. For deep dive analysis, we can add some mock_visitor-requirement to have more insight results.
+
+## Licensing, Authors and Acknowledgements 
+- <a href="https://www.kaggle.com/datasets/airbnb/boston" target="_blank">Data</a>.
+- Acknowledgements: This dataset is part of Airbnb Inside, and the original source can be found <a href="http://insideairbnb.com/get-the-data/" target="_blank">here</a>.
